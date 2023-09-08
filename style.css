@@ -1,0 +1,70 @@
+/*body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto' ,'Helvetica Neue', Arial, sans-serif;
+    background-color: white;
+}
+
+#main {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+#hng-name{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+#hng-track {
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 5px;
+}*/
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    font-family: 'Arial' , sans-serif;
+}
+
+.hng-image {
+    flex: 1;
+    background-image: url('imageDP.jpeg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.other-info {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('imagebackgrd.jpg');
+    background-color: #e2d4d4b4; /* Optional: Background color for the content half */
+}
+
+.content {
+    color: whitesmoke;
+    text-align: justify;
+    padding: 20px;
+}
+
+#hng-name {
+    font-size: 60px;
+}
+
+#hng-track {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: blue;
+    cursor: pointer;
+}
